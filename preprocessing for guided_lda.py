@@ -100,7 +100,7 @@ for i in range(len(mycorpus)):
             temp.append(0)
     matrix.append(temp)
 vocab=tuple(mydict.token2id.keys())
-print("HI")
+
 
 
 seed_topic_list = [['removed', 'remove', 'banned', 'ban', 'warned', 'spam'],
